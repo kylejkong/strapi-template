@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_layout_hero_sections",
+  "info": {
+    "displayName": "HeroSection",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "Images": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "CallToAction": {
+      "type": "string",
+      "required": true,
+      "minLength": 3
+    },
+    "Buttons": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.button"
+    }
+  }
+}
